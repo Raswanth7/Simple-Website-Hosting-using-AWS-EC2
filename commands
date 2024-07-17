@@ -1,0 +1,15 @@
+To switch into root user : 
+sudo su 
+
+To install Apache :  
+yum install httpd -y 
+
+To check the status of our webserver :  
+systemctl status httpd 
+
+To make our webserver active :
+systemctl enable httpd
+systemctl start httpd
+
+To give permissions to our directory we use :
+chmod 777 /var/www/html/
